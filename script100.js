@@ -19,3 +19,4 @@ function nbYear(p0, percent, aug, p) {
           years + 1
         );
   }
+  console.log(nbYear(1500, 5, 100, 5000))
