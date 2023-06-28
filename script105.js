@@ -4,3 +4,6 @@ function consonantCount(str) {
     //   return consonant.length
       return str.split('').filter(v=>/[qzwsxdcrfvtgbyhnjmklp]/gi.test(v)).length
     }
+
+    console.log(consonantCount('bcdfghjklmnpqrstvwxyz'))
+console.log(consonantCount('aeiou AEIOU bcdfghjklmnpqrstvwxyz BCDFGHJKLMNPQRSTVWXYZ 01234567890_ ^&$#'))
