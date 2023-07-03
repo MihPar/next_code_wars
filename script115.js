@@ -1,0 +1,1 @@
+const cannonsReady = (gunners) => Object.values(gunners).every(x=>x==='aye')?'Fire!':'Shiver me timbers!'
