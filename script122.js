@@ -5,4 +5,4 @@ function enough(cap, on, wait) {
     } else if(n - wait < 0) {
       return wait - n
     }
-  }
+  }``
